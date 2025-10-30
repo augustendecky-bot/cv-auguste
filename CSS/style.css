@@ -54,7 +54,7 @@ h2{
     border-bottom: 2px;
     padding-bottom: 3px;
     margin-top: 15px;
-    
+    cursor: pointer;
 }
 .photo{
    /* position: relative;*/
@@ -62,12 +62,19 @@ h2{
     width: 200px;
     height: 200px;
     overflow: hidden;
+    
+    
 }
 .contact{
     padding-top: 40px;
 }
 .contact1{
     color: white;
+    text-align: center;
+}
+.motif{
+    color: white;
+    text-align: center;
 }
 .photo img{
     top: 0;
