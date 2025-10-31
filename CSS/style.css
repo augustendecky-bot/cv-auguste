@@ -84,7 +84,7 @@ h2{
     object-fit: cover;
     
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .prenom{
         display: flex;
         flex-direction: column;
