@@ -1,74 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Auguste Ndecky</title>
     <link rel="stylesheet" href="style.css" />
-    <title>CV-Auguste</title>
   </head>
   <body>
-    <div class="prenom">
-      <div class="gauche">
-        <h1 id="titre"></h1>
-        <h2 class="motif">Etudiant en informatique</h2>
-        <div class="photo">
-          <img src="photo2.jpg" alt="image centrée" />
+    <div class="container">
+      <header class="header">
+        <div class="photo-container">
+          <img src="photo2.jpg" alt="Photo de profil" class="photo" />
         </div>
-        <div class="contact">
-          <h2 class="contact1">Mes Contacts</h2>
+        <h1 id="name">Owen Jacques Auguste Ndecky</h1>
+        <h2>Développeur Web Junior</h2>
+        <p>
+          📍 Dakar, Sénégal | 📧 <a href="">augustndecky@gmail.com</a> | 📞 +221
+          77 463 70 90
+        </p>
+      </header>
+
+      <main>
+        <section class="section">
+          <h3>Profil</h3>
+          <p>
+            Je suis un étudiant passionné par le développement web et la
+            création de sites modernes. J’aime apprendre de nouvelles
+            technologies et créer des interfaces fluides et agréables à
+            utiliser.
+          </p>
+        </section>
+
+        <section class="section">
+          <h3>Compétences</h3>
           <ul>
-            <li>774637092</li>
-            <li>augustndecky@gmail.com</li>
-            <li>Thies,Senegal</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>langage C</li>
+            <li>Gestion de projet</li>
+            <li>Bases de données MySQL</li>
           </ul>
-        </div>
-      </div>
-      <div class="droite">
-        <div class="competence">
-          <hr />
-          <h2>Mes Competences</h2>
-          <p>
-            Je suis étudiant en 2ème année informatique passionné des nouvelles
-            technologies .
-          </p>
-          <br />
-          <p>
-            Ma passion est surtout centrée sur les réseaux et télécommunications
-            et j'aimerai travailler sur ce métier pour réaliser mes reves.
-          </p>
-        </div>
-        <hr />
-        <div class="parcours">
-          <h2>Cursus Scolaires</h2>
-          <p>2024-2025: Licence 2 informatique à l'UIDT de Thies</p>
-          <br />
-          <p>2023-2024:Licence 1 informatique à l'UIDT de Thies</p>
-          <br />
-          <p>
-            2022-2023: titulaire d'un bac S3 au lycée Seydina Limamoulaye de
-            Guediawaye
-          </p>
-          <br />
-          <p>2019-2020: titulaire d'un BFEM au CEM MBao</p>
-        </div>
-        <hr />
-        <div class="langues">
-          <h2>Langues</h2>
+        </section>
+
+        <section class="section">
+          <h3>Expériences</h3>
+          <div class="card">
+            <h4>Projet personnel – CV en ligne</h4>
+            <p>
+              Création d’un CV moderne en HTML/CSS avec animation et hébergement
+              sur GitHub Pages.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Stage – Initiation au développement web</h4>
+            <p>
+              Participation à un projet d’équipe et découverte des bases du
+              front-end.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h3>Formations</h3>
+          <div class="card">
+            <h4>Licence Informatique</h4>
+            <p>Université Iba Der Thiam de Thies – En cours</p>
+            <p>titulaire d'un baccalauréat scientifique et technique(S3)</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h3>Langues</h3>
           <ul>
-            <li>Français - courant</li>
-            <li>Anglais - intermediaire</li>
-            <li>Wolof - courant</li>
+            <li>Français – Courant</li>
+            <li>Anglais – Intermédiaire</li>
+            <li>Wolof – Langue maternelle</li>
           </ul>
-        </div>
-        <hr />
-        <div class="poppy">
-          <h2>Centres d'interet</h2>
-          <p>Basket-ball</p>
-          <p>Natation</p>
-          <p>coding</p>
-        </div>
-      </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2025 Auguste Ndecky | CV réalisé avec HTML, CSS et JavaScript</p>
+      </footer>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
